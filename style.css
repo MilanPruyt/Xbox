@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(127, 168, 0);
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color:black;
+  text-decoration:none;
+}
+
+a:hover{
+  color:white;
+}
+]
+
+h1, h2 {
+    margin-top: 4px;
+}
+
+nav{
+  background-color: rgb(127, 168, 0);
+  display:flex;
+  justify-content:space-evenly;
+}
+
+nav div {
+  padding:6px;
+}
+
+.imagegallery img{
+  width: 50%;
+  display:flex;
+  margin:0;
+  padding:0;
+
+  
+}
+header{
+  padding-top:20px;
+  color:black;
+  font-weight:bold;
+  text-align:center;
+  height: 500px;
+  background-image:url(https://cdn.glitch.me/840f0a90-dacc-4990-a1ed-406aa10704e2%2FXbox-Logo-2012-vandaag.jpg?v=1633377806375);
+  background-size:cover;
+}
+
+
+footer{
+  background-color: rgb(255, 255, 255);
+}
+
+
+section {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 20px auto;
+    color: rgb(22, 22, 66);
+    font-size: 1.1em;
+  max-width:800px;
+}
+
+figcaption {
+    font-size: 0.9em;
+    font-style: italic;
+    opacity: 0.4;
+}
